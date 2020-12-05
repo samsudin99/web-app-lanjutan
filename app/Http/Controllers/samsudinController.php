@@ -18,4 +18,9 @@ class samsudinController extends Controller
     {
         return view("samsudin-3");
     }
+
+    public function index()
+    {
+        return view("test-tema"); // view dengan template
+    }
 }

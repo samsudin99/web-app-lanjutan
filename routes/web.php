@@ -55,6 +55,5 @@ use App\Http\Controllers\sudinController;
 Route::get("/sudin/satu", [sudinController::class, "satu"]);
 Route::get("/sudin/dua", [sudinController::class, "dua"]);
 Route::get("/sudin/tiga", [sudinController::class, "tiga"]);
-
-
-
+  
+Route::get("/test-tema", [samsudinController::class, "index"]);
